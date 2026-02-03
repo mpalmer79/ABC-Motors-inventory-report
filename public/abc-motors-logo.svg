@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <defs>
+          <style>
+                  .abc-logo-bg { fill: #1f2937; }
+                  .abc-logo-circle { fill: none; stroke: #2563eb; stroke-width: 8; }
+                  .abc-logo-text { fill: #ffffff; font-family: Arial, sans-serif; font-weight: bold; }
+                  .abc-logo-letter { font-size: 48px; letter-spacing: 12px; }
+                  .abc-logo-subtext { fill: #2563eb; font-size: 10px; letter-spacing: 2px; }
+          </style>
+    </defs>
+
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="95" class="abc-logo-bg"/>
+
+    <!-- Decorative circle border -->
+    <circle cx="100" cy="100" r="90" class="abc-logo-circle"/>
+
+    <!-- ABC Text -->
+    <text x="100" y="110" text-anchor="middle" class="abc-logo-text abc-logo-letter">ABC</text>
+
+    <!-- Motors subtext -->
+    <text x="100" y="135" text-anchor="middle" class="abc-logo-subtext">MOTORS</text>
+</svg>
